@@ -1,0 +1,24 @@
+spec_version: "0.1.0"
+name: ai-agents-hub
+version: 0.1.0
+description: Curated AI agent project catalog and orchestration engine for scouting, benchmarking, and scaffolding agent architectures.
+license: MIT
+author: Ashish Patel, Chithra582 & OpenGAP Contributors
+
+metadata:
+  domain: Developer Tools / Agent Architectures & Project Catalog
+  category: Developer Tools
+
+skills:
+  - agent-template-scaffolder
+  - framework-architecture-advisor
+  - industry-usecase-matcher
+  - multi-agent-orchestrator
+  - agent-benchmark-evaluator
+
+tools:
+  - agent-catalog-search
+  - framework-compatibility-checker
+  - template-generator
+  - multi-agent-topology-visualizer
+  - agent-security-auditor

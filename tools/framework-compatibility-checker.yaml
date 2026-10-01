@@ -1,0 +1,15 @@
+name: framework-compatibility-checker
+description: Analyzes agent Python code and dependency manifests for framework version
+  compatibility.
+input_schema:
+  type: object
+  properties:
+    source_path:
+      type: string
+      description: Path to the agent source file or project directory.
+    target_framework:
+      type: string
+      description: Target agent framework to evaluate compatibility for.
+  required:
+  - source_path
+  - target_framework

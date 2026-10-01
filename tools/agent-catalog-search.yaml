@@ -1,0 +1,17 @@
+name: agent-catalog-search
+description: Searches and filters the 500+ AI agent project index by framework, industry,
+  complexity, and capability.
+input_schema:
+  type: object
+  properties:
+    framework:
+      type: string
+      description: 'Target framework: langgraph, crewai, autogen, agno, or all.'
+    industry:
+      type: string
+      description: 'Industry sector: finance, healthcare, devtools, legal, or education.'
+    query:
+      type: string
+      description: Search keyword or specific use-case term.
+  required:
+  - query

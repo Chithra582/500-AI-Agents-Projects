@@ -1,0 +1,17 @@
+name: multi-agent-topology-visualizer
+description: Generates ASCII or Mermaid topological graphs of agent communication
+  flows and hierarchies.
+input_schema:
+  type: object
+  properties:
+    topology_type:
+      type: string
+      description: 'Topology style: hierarchical, peer_debate, or sequential_pipeline.'
+    agents:
+      type: array
+      description: List of agent roles participating in the topology.
+      items:
+        type: string
+  required:
+  - topology_type
+  - agents

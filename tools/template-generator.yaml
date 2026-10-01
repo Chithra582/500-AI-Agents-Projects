@@ -1,0 +1,20 @@
+name: template-generator
+description: Generates boilerplate agent scaffolding with pre-configured tools, memory,
+  and prompts.
+input_schema:
+  type: object
+  properties:
+    project_name:
+      type: string
+      description: Name of the new agent project directory.
+    template_type:
+      type: string
+      description: 'Template archetype: web-researcher, code-reviewer, pdf-qa, or
+        custom.'
+    output_dir:
+      type: string
+      description: Destination directory for generated agent files.
+  required:
+  - project_name
+  - template_type
+  - output_dir
