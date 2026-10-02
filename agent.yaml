@@ -1,5 +1,5 @@
 spec_version: "0.1.0"
-name: ai-agents-hub
+name: ai-agents-projects
 version: 0.1.0
 description: Curated AI agent project catalog and orchestration engine for scouting, benchmarking, and scaffolding agent architectures.
 license: MIT
